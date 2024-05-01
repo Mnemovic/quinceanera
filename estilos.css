@@ -349,9 +349,9 @@ iframe
     #lema
     {   font-weight: 300;   font-size: 2rem;    width: 80%;             }
     #nombre
-    {   font-weight: 500;   font-size: 5rem;    padding-top: 2rem;      }
+    {   font-weight: 500;   font-size: 4.5rem;    padding-top: 2rem;      }
     #marco
-    {   width:95%;          padding-top: 2rem   }
+    {   width:95%;             }
     #fecha
     {   height: 80px;       font-size: 2rem;    }
     .temporizador
