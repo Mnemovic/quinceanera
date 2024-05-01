@@ -162,9 +162,9 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     align-items: center;   
     background-color: #f794a6;
     opacity: 75%;
-    border-radius: 20px; 
+    border-radius: 10px; 
     margin:  0 0;
-    border: 20px;
+    border: 10px;
 }
 
 #fecha
@@ -178,7 +178,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     background-color: #e6006d;
     opacity: 50%;
     z-index: 1;
-    border-radius: 20px;    
+    border-radius: 10px;    
     margin: 0px 50px;
     border: 10px;
     font-weight: 100;
@@ -213,7 +213,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     background-color: #e6006d;
     opacity: 50%;
     z-index: 1;
-    border-radius: 20%;    
+    border-radius: 10%;    
     margin: 0px 50px;
     border: 0px;
 }
@@ -340,4 +340,22 @@ iframe
   border: solid #d91c71 2px;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#fc3f94), to(#fc0574));
   background: -moz-linear-gradient(top, #fc3f94, #fc0574);
+}
+
+@media (max-width: 520px) 
+{
+    #titulo
+    {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem    }
+    #lema
+    {   font-weight: 300;   font-size: 2rem;    width: 80%;          }
+    #nombre
+    {   font-weight: 500;   font-size: 5rem;    }
+    #marco
+    {   width:95%;                             }
+    #fecha
+    {   height: 80px;       font-size: 3rem;    }
+    .temporizador
+    {   width: 100px;       margin: 0px 5px;    }
+    .tiempo
+    {   font-size: 3rem;                        }    
 }
