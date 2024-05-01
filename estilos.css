@@ -345,17 +345,17 @@ iframe
 @media (max-width: 520px) 
 {
     #titulo
-    {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem    }
+    {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem;      }
     #lema
-    {   font-weight: 300;   font-size: 2rem;    width: 80%;          }
+    {   font-weight: 300;   font-size: 2rem;    width: 80%;             }
     #nombre
-    {   font-weight: 500;   font-size: 5rem;    }
+    {   font-weight: 500;   font-size: 5rem;    padding-top: 2rem;      }
     #marco
-    {   width:95%;                             }
+    {   width:95%;          padding-top: 2rem   }
     #fecha
-    {   height: 80px;       font-size: 3rem;    }
+    {   height: 80px;       font-size: 2rem;    }
     .temporizador
-    {   width: 100px;       margin: 0px 5px;    }
+    {   width: 90px;        margin: 0px 5px;    }
     .tiempo
     {   font-size: 3rem;                        }    
 }
