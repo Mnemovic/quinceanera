@@ -164,6 +164,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     border-radius: 10px; 
     margin:  0 0;
     border: 5px;
+    box-shadow: 0 0 10px 5px #f794a6;
 }
 
 #fecha
@@ -271,7 +272,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 .titulo2  
 {
     text-align: center;
-    text-shadow: 0 0 10px #4d0f3f;
+    text-shadow: 0 0 10px #9d1f4f;
     font-family: "Parisienne", cursive;
     font-weight: 400;
     font-style: normal;
@@ -284,7 +285,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 .titulo3 
 {  
     text-align: center;
-    text-shadow: 0 0 10px #4d0f3f;
+    text-shadow: 0 0 10px #9d1f4f;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;   
@@ -294,11 +295,11 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     border: 0;
 }
 
-.otrocolor {color: #f794a6;}
+.otrocolor {color: #4d0f3f;}
 
 .titulo4 
 {  
-    text-shadow: 0 0 10px #4d0f3f;
+    text-shadow: 0 0 10px #9d1f4f;
     text-align: center;
     font-family: "Tangerine";
     font-weight: 500;
