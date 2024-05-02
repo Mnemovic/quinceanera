@@ -269,7 +269,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 .titulo2  
 {
     text-align: center;
-    text-shadow: 0 0 10px #9d1f4f;
+    text-shadow: 0 0 10px #4d0f3f;
     font-family: "Parisienne", cursive;
     font-weight: 400;
     font-style: normal;
@@ -282,7 +282,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 .titulo3 
 {  
     text-align: center;
-    text-shadow: 0 0 10px #9d1f4f;
+    text-shadow: 0 0 10px #4d0f3f;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-style: normal;   
@@ -296,7 +296,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 
 .titulo4 
 {  
-    text-shadow: 0 0 10px #9d1f4f;
+    text-shadow: 0 0 10px #4d0f3f;
     text-align: center;
     font-family: "Tangerine";
     font-weight: 500;
@@ -311,8 +311,19 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 #ubicacion {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    
+    justify-content: center;
+    align-items: center;
 }
+
+.mapa 
+{   display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 iframe 
 { 
     -webkit-box-shadow: 0 0 10px 5px #f794a6;
@@ -320,10 +331,11 @@ iframe
     -webkit-border-radius: 5px;
     border-radius: 5px;
     margin:20px;
+    display: inherit;
 }
-#asistencia {
+.boton {
     text-shadow: 0 0 10px #9d1f4f;
-    text-align: center;
+    justify-content: center;
     font-family: "Tangerine";
     font-weight: 500;
     font-style: normal;  
@@ -340,22 +352,37 @@ iframe
   border: solid #d91c71 2px;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(#fc3f94), to(#fc0574));
   background: -moz-linear-gradient(top, #fc3f94, #fc0574);
+    display: none;
 }
 
 @media (max-width: 520px) 
 {
     #titulo
-    {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem;      }
+    {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem;        }
     #lema
     {   font-weight: 500;   font-size: 2.5rem;    width: 80%;             }
     #nombre
     {   font-weight: 500;   font-size: 4.5rem;    padding-top: 2rem;      }
     #marco
-    {   width:95%;             }
+    {   width:95%;                              }
     #fecha
-    {   height: 80px;       font-size: 3rem;    }
+    {   height: 80px;       font-size: 2.5rem;  }
     .temporizador
     {   width: 90px;        margin: 0px 5px;    }
     .tiempo
-    {   font-size: 3.5rem;                        }    
+    {   font-size: 3.5rem;                      }  
+    #personas
+    {   background-size: cover; background-image: url(imagenes/anaCell.png);    } 
+    .titulo2  
+    {   font-weight: 300;   font-size: 1.75rem; }
+    .titulo3 
+    {   font-weight: 300;   font-size: 1.5rem;  margin: 5px 10px;   }
+    .titulo4 
+    {   font-weight: 300;   font-size: 2rem;  margin: 5px 10px;   }
+    iframe 
+    {   margin:0px;         display:none;}
+    .boton 
+    {   display:inherit;    font-size: 2rem; width: 200px;   }
+    a   
+    {   text-decoration: none;  }
 }
