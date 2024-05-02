@@ -107,10 +107,9 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
   }
 }
 
-#rosita {
-    position: absolute;
-    top: 0;
-    left: 0;
+#rosita {   
+    background-size:cover;
+    background-image: url(imagenes/anaVM.png);
     width: 100%;
     height: 100%;    
     z-index: 1;
@@ -150,8 +149,8 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     font-style: normal;
     font-size: 7rem;
     color: white;
-    padding: 10px 0px;
-    margin: 10px 0px;
+    padding: 5px 0px;
+    margin: 5px 0px;
     text-shadow: 4px 4px 4px #9d1f4f;
 }
 
@@ -164,7 +163,7 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
     opacity: 75%;
     border-radius: 10px; 
     margin:  0 0;
-    border: 10px;
+    border: 5px;
 }
 
 #fecha
@@ -206,8 +205,8 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 {       
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items:center;
     width: 120px;
     height: 120px;
     background-color: #e6006d;
@@ -230,6 +229,9 @@ body {  box-sizing:content-box; margin: 0px; border: 0px; }
 
 .otro
 {
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
     padding: 0px;
     margin: 0px; 
     color: white;
@@ -357,6 +359,8 @@ iframe
 
 @media (max-width: 520px) 
 {
+    #rosita 
+    {   background-size: cover; background-image: url(imagenes/anaCell.png);      }
     #titulo
     {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem;        }
     #lema
@@ -379,7 +383,7 @@ iframe
     {   font-weight: 300;   font-size: 1.5rem;  margin: 5px 10px;   }
     .titulo4 
     {   font-weight: 300;   font-size: 2rem;  margin: 5px 10px;   }
-    iframe 
+    .mapa iframe 
     {   margin:0px;         display:none;}
     .boton 
     {   display:inherit;    font-size: 2rem; width: 200px;   }
