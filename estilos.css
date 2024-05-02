@@ -347,15 +347,15 @@ iframe
     #titulo
     {   font-weight: 300;   font-size: 3rem;    padding-top: 3rem;      }
     #lema
-    {   font-weight: 300;   font-size: 2rem;    width: 80%;             }
+    {   font-weight: 500;   font-size: 2.5rem;    width: 80%;             }
     #nombre
     {   font-weight: 500;   font-size: 4.5rem;    padding-top: 2rem;      }
     #marco
     {   width:95%;             }
     #fecha
-    {   height: 80px;       font-size: 2rem;    }
+    {   height: 80px;       font-size: 3rem;    }
     .temporizador
     {   width: 90px;        margin: 0px 5px;    }
     .tiempo
-    {   font-size: 3rem;                        }    
+    {   font-size: 3.5rem;                        }    
 }
